@@ -1,24 +1,34 @@
-url: https://centers.moxit.com
-baseurl: /tmcdc
+url: http://www.growandblossompreschool.com
+baseurl: 
 
 # Site settings
-title: Thurgood Marshall Child Development Center
-email: TMCDC_Director@ao.uscourts.gov
+title: Grow and Blossom PreSchool Center
+email: info@growandblossompreschool.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-about: "<p>We provide quality care for children ages 3 months until kindergarten.</p>
-<p>Our center offers warm, friendly, professionally-organized, unique child care in the heart of the nation's capital, just steps from Union Station in Washington, D.C.  We strive to create a loving community of children, parents, teachers, and friends.</p>
-<p>Our staff include talented, highly trained, and academically credentialed teachers who nurture and facilitate integrated learning, following a child's own rhythms.  Our responsive teachers understand that children are learning all the time through active and purposeful involvement with people, materials, and ideas.</p>
-<p>We use the Creative Curriculum, a play-orientated, child-initiated approach.  The Creative Curriculum fosters a dynamic environment to satisfy the young child's natural sense of wonder, sociability, eagerness to explore and problem solve, enthusiasm for quality literature, and aptitude to learn through play.</p>
-<p>In addition to classroom experiences, children play on our large, private outdoor playground, go on neighborhood walks, and have the option to take field trips to exciting destinations.  We also offer enrichment programs in Spanish, music, and gymnastics.</p>
-<p>We see parents and teachers as partners, and value close, regular, and open communication.  Our environment respects individuality and differences.  We have an open door policy, and parents are welcome to visit anytime.</p>"
+about: "<p>Grow and Blossom Preschool Center’s mission is to provide high quality educational services using a developmentally appropriate preschool curriculum for a multi-economic and culturally diverse group of young children.</p>
+<p>​To achieve our mission, the following objectives provide the foundation for which our goals can be met.</p>
+<ul>
+    <li>To maintain a student body and staff that reflects the diversity of the greater Washington Metropolitan area.</li>
+    <li> To maintain and support cultural and linguistic diversity for the student body and the staff</li>
+    <li>To provide a high quality, developmentally appropriate, early childhood program.</li>
+    <li>To provide a curriculum, which is appropriate for young children and is consistent with the way young children learn</li>
+    <li>To provide a clean, safe, stimulating, and secure environment, that allows and encourages children’s individuality and creativity</li>
+    <li>To set up a learning environment that fosters growth and competence in all developmental areas</li>
+    <li>To promote cultural awareness and appreciation</li>
+    <li>To teach children about different cultures within the different areas of the curriculum</li>
+    <li>To maintain and ethnic and cultural diverse environment at the center</li>
+    <li> To establish open and beneficial relationships between parents and staff</li>
+    <li>To communicate with parents about overall program as well as their child’s progress and accomplishments</li>
+    <li>To encourage parents to actively participate in activities within the program</li>
+</ul>"
 
 # Team names, titles and social links
 people:
 - name: Janine Fetters
   pic: 5
   position: Executive Director
-  email: TMCDC_Director@ao.uscourts.gov
+  email: info@growandblossompreschool.com
 #   social:
 #     - title: twitter
 #       url: #

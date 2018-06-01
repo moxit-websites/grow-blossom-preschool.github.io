@@ -59,6 +59,12 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
+    line-height: 1.4em;
+}
+
+ul > li {
+    font-size: 1.25em;
+    line-height: 1.9em;
 }
 
 .hide {
@@ -292,7 +298,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-bg-moxit.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
