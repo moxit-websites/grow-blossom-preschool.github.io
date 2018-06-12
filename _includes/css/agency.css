@@ -158,7 +158,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: rgba(228, 85, 43,1);
 }
 
 .btn-xl:hover,
@@ -203,7 +203,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #e4552b !important;
+    /* background-color: #e4552b !important; */
+    background-color: #fec503 !important;
 }
 
 .navbar-default .navbar-brand {
@@ -242,25 +243,25 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #e4552b;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #e4552b;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #e4552b;
 }
 
 @media(min-width:768px) {
@@ -310,7 +311,8 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    background-color: rgba(253,190,15,.81);
+    /* background-color: rgba(253,190,15,.81); */
+    background-color: rgba(228, 85, 43,.81);
 }
 
 header .intro-text .intro-lead-in {
