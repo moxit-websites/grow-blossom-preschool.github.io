@@ -1,28 +1,28 @@
-$(function(){
-    // intercept the form submission
-    $("#moxit-contact-form").on("submit", function(e) {
-        e.preventDefault(); // stop the form from being submitted
-        // make an ajax POST request to the form's action
+// $(function(){
+//     // intercept the form submission
+//     $("#moxit-contact-form").on("submit", function(e) {
+//         e.preventDefault(); // stop the form from being submitted
+//         // make an ajax POST request to the form's action
 
-        console.log('contact form fired')
+//         console.log('contact form fired')
         
-        $.ajax({
-            type: "POST",
-            url: $(this).attr("action"),      // use the form's action attribute as the endpoint
-            data: $(this).serialize(),        // use the data from the form
-            headers:
-            {
-                "Accept": "application/json"  // this makes the server send you a JSON response
-            },
-            success: function(response)       // handle the successful submission of your POST
-            {
-                console.log(response);        // response contains the form submission that was just made
-                alert("Thank you for your submission, we'll get back to you soon :)");
-                $("#moxit-contact-form")[0].reset();// reset the form
-            },
-        });
-    });
-  })
+//         $.ajax({
+//             type: "POST",
+//             url: $(this).attr("action"),      // use the form's action attribute as the endpoint
+//             data: $(this).serialize(),        // use the data from the form
+//             headers:
+//             {
+//                 "Accept": "application/json"  // this makes the server send you a JSON response
+//             },
+//             success: function(response)       // handle the successful submission of your POST
+//             {
+//                 console.log(response);        // response contains the form submission that was just made
+//                 alert("Thank you for your submission, we'll get back to you soon :)");
+//                 $("#moxit-contact-form")[0].reset();// reset the form
+//             },
+//         });
+//     });
+//   })
   
 // $(function() {
 

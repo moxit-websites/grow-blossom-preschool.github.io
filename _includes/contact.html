@@ -36,29 +36,32 @@
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <form id="moxit-contact-form" action="https://liveformhq.com/form/a8a67404-33c2-4ebd-8053-5f779fc57f73" method="POST" accept-charset="utf-8">
-                                <input type='hidden' name='redirect_to' value='{{ site.url }}/thank-you' />
-                                <div class="control-group form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name." name="name">
-                                    <p class="help-block text-danger"></p>
+                                <form
+                                action="https://liveformhq.com/form/a8a67404-33c2-4ebd-8053-5f779fc57f73"
+                                method="POST" accept-charset="utf-8" role=form>
+                              
+                                <input type="hidden" name="_utf8" value="✓">
+                              
+                                <input type="hidden" name="_redirect" value="https://liveformhq.com/form-test/a8a67404-33c2-4ebd-8053-5f779fc57f73#thank-you">
+                              
+                                <div class='form-group'>
+                                  <label for="name">Name</label>
+                                  <input class='form-control' type="text" id="name" name="name">
                                 </div>
-                                <div class="control-group form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address." name="email">
-                                    <p class="help-block text-danger"></p>
+                              
+                                <div class='form-group'>
+                                  <label for="email">Email</label>
+                                  <input class='form-control' type="text" id="email" name="email">
                                 </div>
-                                <div class="control-group form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number." name="phone">
-                                    <p class="help-block text-danger"></p>
+                              
+                                <div class='form-group'>
+                                  <label for="message">Message</label>
+                                  <textarea class='form-control' id="message" name="message"></textarea>
                                 </div>
-                                <div class="control-group form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message." name="message"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group form-group">
-                                    <div id="success"></div>
-                                    <button id="submit" type="submit" class="btn btn-xl">Send Message</button>
-                                </div>
-                            </form>
+                              
+                                <button type="submit">Submit</button>
+                              </form>
+                              
                         </div>
                         <div class="clearfix"></div>
                     </div>
