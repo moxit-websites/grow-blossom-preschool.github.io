@@ -373,6 +373,11 @@ header .intro-text .intro-heading {
     section h3.section-subheading {
         margin-bottom: 20px !important;
     }
+
+    .navbar-default .navbar-brand img {
+        width: 115px;
+        padding: 10px;
+    }
 }
 
 section {
