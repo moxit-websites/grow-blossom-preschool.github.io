@@ -6,16 +6,26 @@
 
     <body id="page-top" class="index">
 
-    {% include header.html %}
-    {% include about.html %}
-    {% include mission.html %}
-    {% include programs.html %}
-    {% include portfolio_grid.html %}
-    {% include tuition.html %}
-    {% include contact.html %}
-    {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
+      {% include header.html %}
+
+      <div class="alert alert-danger text-center" role="alert">
+        <h3 style="margin: 0px;">For limited time: FREE First Month</h3>
+      </div>
+
+      {% include about.html %}
+      {% include mission.html %}
+      {% include programs.html %}
+      {% include portfolio_grid.html %}
+
+      <div class="alert alert-danger text-center" role="alert">
+        <h3 style="margin: 0px;">For limited time: FREE First Month</h3>
+      </div>
+
+      {% include tuition.html %}
+      {% include contact.html %}
+      {% include footer.html %}
+      {% include modals.html %}
+      {% include js.html %}
 
     </body>
 </html>

@@ -4,8 +4,8 @@ subtitle: Graphic Design
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: gallery-6.jpg
-thumbnail: gallery-6.jpg
+img: gallery-6.png
+thumbnail: gallery-6.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
