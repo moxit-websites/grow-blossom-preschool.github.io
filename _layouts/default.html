@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
+  <body id="page-top" class="index">
+    {% include header.html %}
 
-    <body id="page-top" class="index">
+    <div class="alert alert-danger text-center" role="alert">
+      <h3 style="margin: 0px;">For limited time: FREE First 2 Weeks</h3>
+    </div>
 
-      {% include header.html %}
+    {% include about.html %} {% include mission.html %} {% include programs.html
+    %} {% include portfolio_grid.html %}
 
-      <div class="alert alert-danger text-center" role="alert">
-        <h3 style="margin: 0px;">For limited time: FREE First Month</h3>
-      </div>
+    <div class="alert alert-danger text-center" role="alert">
+      <h3 style="margin: 0px;">For limited time: FREE First 2 Weeks</h3>
+    </div>
 
-      {% include about.html %}
-      {% include mission.html %}
-      {% include programs.html %}
-      {% include portfolio_grid.html %}
-
-      <div class="alert alert-danger text-center" role="alert">
-        <h3 style="margin: 0px;">For limited time: FREE First Month</h3>
-      </div>
-
-      {% include tuition.html %}
-      {% include contact.html %}
-      {% include footer.html %}
-      {% include modals.html %}
-      {% include js.html %}
-
-    </body>
+    {% include tuition.html %} {% include contact.html %} {% include footer.html
+    %} {% include modals.html %} {% include js.html %}
+  </body>
 </html>
