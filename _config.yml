@@ -29,10 +29,10 @@ mission: "<p>Grow and Blossom Preschool Center’s mission is to provide high qu
 
 tuition: "<p>Grow and Blossom Preschool Center's fee is for:</p>
   <ul>
-    <li>Age 2.5 -4years -- $300.00 per week</li>
-    <li>Age 4 -5 years -- $ 280.00 per week</li>
+    <li>Age 2.5 -4years -- $275.00 per week</li>
+    <li>Age 4 -5 years -- $265.00 per week</li>
     <li>After School (School Age) from $150.00 per week</li>
-    <li>Before School --    $ 120.00 per week</li>
+    <li>Before School -- $120.00 per week</li>
   </ul>
 
   <p>A fee statement is prepared and delivered to you via email on the first of each month. Fees are charged on a monthly basis. Fees are due the first of each month, however parents may choose to pay in two payments, half on the first of the month and the remainder on the 15th of the month. Fees are charged and due regardless of absence due to illness or vacation.
@@ -117,7 +117,7 @@ contact:
       state: DC
       zipCode: 20544
 
-  phone: (202) 502-2475
+  phone: (571) 236-5153 or (703) 922-8200
 
 # Build settings
 livereload: true
